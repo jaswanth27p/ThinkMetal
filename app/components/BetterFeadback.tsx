@@ -7,7 +7,7 @@ export default function BetterFeadback() {
     return (
         <section className="bg-gradient-to-tl from-[#FB432C]  to-[#FF591E]">
             <div className="px-4 md:px-10 lg:px-16 max-w-[1440px] mx-auto  py-16 flex flex-col items-center justify-center">
-                <StaggeredContainer className="md:text-center mb-8">
+                <StaggeredContainer className="md:text-center mb-14 mt-4">
                     <h1 className="text-white text-heading6 md:text-heading3 leading-[40px] md:leading-[63px]">Better feedback at the right time.</h1>
                     <p className="text-white text-body-2xl-regular leading-[24px] mt-2">Best time here</p>
                 </StaggeredContainer>
