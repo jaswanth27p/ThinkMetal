@@ -12,7 +12,7 @@ export default function BetterFeadback() {
                     <p className="text-white text-body-2xl-regular leading-[24px] mt-2">Best time here</p>
                 </StaggeredContainer>
                 <div className="bg-[#111111] relative border border-black/5 overflow-hidden aspect-[1150/358] text-white rounded-[24px] md:px-10 shadow-lg max-w-md md:max-w-6xl w-full min-h-[350px]">
-                    <div className="relative md:-top-[80px] md:bg-[#222222] h-full w-full flex flex-col justify-center md:justify-end  rounded-[20px] p-8 space-y-8 md:space-y-16">
+                    <div className="relative md:-top-[25px] lg:-top-[50px] xl:-top-[80px] md:bg-[#222222] min-h-fit h-full w-full flex flex-col justify-center md:justify-end  rounded-[20px] p-8 space-y-8 md:space-y-16">
                         <div className="flex gap-4 flex-col md:flex-row justify-between items-start md:items-center">
                             <div className="flex gap-4">
                                 <LogoIconOrangeGray />
