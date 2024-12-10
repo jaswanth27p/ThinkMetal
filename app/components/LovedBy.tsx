@@ -6,7 +6,7 @@ export default function LovedBy() {
     return (
         <section className="bg-white py-16">
             <div className="px-4 md:px-10 lg:px-16 space-y-10">
-                <HeadingFadein className="text-heading5 max-w-[300px] md:text-center md:max-w-full md:text-heading3 text-[#282828] leading-[63px]"><span>Loved By Designers At</span></HeadingFadein>
+                <HeadingFadein className="text-heading5 max-w-[300px] md:text-center md:max-w-full md:text-heading3 text-[#282828] leading-[40px] md:leading-[63px]"><span>Loved By Designers At</span></HeadingFadein>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 gap-y-14 md:gap-y-4 max-w-md md:max-w-full mx-auto">
                     {images.map((src, index) => (
                         <div key={index} className="md:aspect-[296/144] p-4 bg-[#F9FAFB] relative aspect-[164/136]">
