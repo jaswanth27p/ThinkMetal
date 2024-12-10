@@ -54,7 +54,7 @@ export default function Navbar() {
                 </button>
             </div>
             {isMenuOpen && (
-                <div className="md:hidden bg-white shadow">
+                <div className="md:hidden absolute z-50 w-full top-[50px] bg-white shadow">
                     <nav className="flex flex-col space-y-2 px-4 py-2">
                         <div>
                             <button

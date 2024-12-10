@@ -1,17 +1,18 @@
 import CirclePlay from "@/assets/CirclePlay";
 import CircleTick from "@/assets/CircleTick";
 import Image from "next/image";
+import StaggeredContainer from "./animations/StaggeredContainer";
 
 export default function FeedbackSection() {
     return (
         <section >
-            <div className="px-4 md:px-10 lg:px-16 max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-12 bg-white">
+            <div className="px-4 md:px-10 lg:px-16 max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-16 bg-white">
                 <div className=" bg-[#FAFAFA] flex justify-center items-center rounded-[24px] p-4">
                     <div className="relative lg:w-auto lg:h-full w-full aspect-[358/361]">
                         <Image src={"/feedbackImg.png"} unoptimized sizes="100vw" alt={"."} fill />
                     </div>
                 </div>
-                <div className="">
+                <StaggeredContainer className="">
                     <button className="bg-gradient-to-r mb-2 flex-shrink-0  transform transition duration-500 from-[#FB432C] to-[#FB432C] text-white border py-2 px-4 rounded-[100px] text-body-medium-semibold hover:bg-none hover:bg-white hover:border-[#FB432C] hover:text-[#FB432C]">
                         Feedback
                     </button>
@@ -28,7 +29,7 @@ export default function FeedbackSection() {
                     <p className="flex gap-2 text-body-large-semibold leading-[26px] mt-6 text-black hover:underline">
                         <CirclePlay />See how it works
                     </p>
-                </div>
+                </StaggeredContainer>
             </div>
         </section>
     )
